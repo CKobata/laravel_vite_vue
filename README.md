@@ -1,1 +1,2 @@
 # laravel_vite_vue
+laravelとvueの連携の練習をする
