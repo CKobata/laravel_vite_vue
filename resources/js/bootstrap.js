@@ -10,7 +10,9 @@ window.axios = axios;
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 import { createApp } from "vue";
-const app = createApp();
+import App from "./app.vue";
+
+const app = createApp(App);
 console.log(app.version);
 app.mount("#app");
 
