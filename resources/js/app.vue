@@ -4,5 +4,6 @@ import Counter from "./components/Counter.vue";
 
 <template>
     <h1>Hello World</h1>
+    <img src="/images/logo-with-shadow.png" />
     <Counter />
 </template>
